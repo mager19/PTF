@@ -1,0 +1,236 @@
+
+/*
+
+
+*
+*style.css
+*
+Template : Shu Personal Template 
+Css 
+Author: Mario Germán Reyes (@mager19)
+Version: 1.0
+
+*
+
+*
+* Credits
+*
+
+- Background header image: https://pexels.com
+ 
+*/
+
+@import 'https://fonts.googleapis.com/css?family=Hind|Titillium+Web';
+
+body{
+	font-family: 'Hind', sans-serif;
+	font-size: 16px;
+}
+
+.contenedor{
+	padding: 5em 0;
+}
+
+header{
+	background-image: url("../img/header.jpg");
+	background-position: center;
+	color:#f9f9f9;
+}
+
+header h1{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 3em;
+	font-weight: 800;
+	margin: 0 auto;
+}
+
+nav{
+	background-color: rgba(255,255,255,0.2);
+}
+
+nav ul li{
+	display: inline-block;
+	margin-left: 0.5em;	
+	padding-top: 1.5em;
+}
+
+nav ul li a{
+	border: 1px solid transparent;
+	color:#f9f9f9;
+	font-size: 1.1em;
+	letter-spacing: 2px;
+	padding: 0.5em;
+	-webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -o-transition: all linear .2s;
+    transition: all linear .2s;
+}
+
+nav ul li a:hover{
+	border: 1px solid #f9f9f9;
+	padding: 0.5em ;
+	color:#f9f9f9;
+	text-decoration: none;
+}
+
+.header__contenido{
+	text-align: center;
+	padding: 15% 0;
+}
+
+.header__contenido h2{
+	font-size: 3.5em;
+	margin-bottom: 1em;
+}
+
+.header__contenido h2 span{
+	color:#2EC4B6;
+}
+
+.boton{
+	border-radius: 5px;
+	padding: 0.5em 1em;
+	font-size: 1.3em;	
+}
+
+.boton__header{
+	background-color: #2EC4B6;
+	box-shadow: 0px 3px 0px #037167;
+	color:#f9f9f9;
+	-webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -o-transition: all linear .5s;
+    transition: all linear .5s;
+}
+
+.boton__header:hover{
+	background-color: #037167;
+	box-shadow: 0px 3px 0px #037167;
+	color:#f9f9f9;
+	text-decoration: none;
+}
+
+/*social stick*/
+
+#social__stick{
+	background-color: #2ec4b6;
+
+}
+
+.social__stick__item{
+	padding: 0.5em 0;
+	text-align: center;
+}
+
+
+
+.social__stick__item:hover {
+	background-color: #037167;
+}
+
+.social__stick__item a{
+	color: #f9f9f9;
+}
+
+.social__stick__item a i{
+	margin-right: 10px;
+}
+
+.social__stick__item a:hover {
+	color: #f9f9f9;
+	text-decoration: none;
+}
+
+/*About me*/
+
+.title{
+	font-size: 4em;
+	font-family: 'Titillium Web', sans-serif;
+	padding: 0 0 1em 0;
+	text-align: center;
+}
+
+.aboutme__pictures{
+	overflow: hidden;
+}
+
+.collage {
+	padding: 6px 2px;
+	margin-bottom: 3em;
+}
+
+.contratame{
+	background-image: url("../img/contactame.jpg");
+	background-size: cover;
+	background-position: top;
+	padding: 3em 0;
+	margin-top: 2em;
+}
+
+.contratame h3{
+	color:#f9f9f9;
+	font-size: 3em;
+	padding-top: 1em;
+	text-align: center;
+}
+
+.contratame p{
+	color:#f9f9f9!important;
+	font-size: 1em!important;
+	padding: 2em 1em;
+	text-align: center;
+
+}
+
+.boton__contactme{
+	background-color: #2EC4B6;
+	box-shadow: 0px 3px 0px #037167;
+	color:#f9f9f9;
+	margin-bottom: 2em;
+	-webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -o-transition: all linear .5s;
+    transition: all linear .5s;
+    margin-left: 30%;
+    text-align: center;
+}
+
+.boton__contactme:hover{
+	background-color: #037167;
+	box-shadow: 0px 3px 0px #037167;
+	color:#f9f9f9;
+	text-decoration: none;
+}
+
+
+#aboutme p{
+	color:#566270;
+	font-size: 1.3em;
+	margin-bottom: 1em;
+}
+
+.aboutme__items{
+	border:1px solid #2EC4B6;
+	margin-top: 3em;
+	padding: 1.5em;
+	margin-bottom: 1.5em;
+	text-align: center;
+}
+
+.aboutme__items i{
+	font-size: 3em;
+	color:#2ec4b6;
+}
+
+.aboutme__items h3{
+	
+	font-size: 2em;
+	margin-top: 0.5em;
+
+}
+
+.aboutme__items p{
+	font-size: 1em!important;
+	line-height: 1.5em;
+	margin-top: 1em;
+}
