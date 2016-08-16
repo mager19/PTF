@@ -163,14 +163,14 @@ nav ul li a:hover{
 	background-image: url("../img/contactame.jpg");
 	background-size: cover;
 	background-position: top;
-	padding: 3em 0;
+	padding: 2em 0 4em 0;
 	margin-top: 2em;
 }
 
 .contratame h3{
 	color:#f9f9f9;
 	font-size: 3em;
-	padding-top: 1em;
+	padding-top: 0.5em;
 	text-align: center;
 }
 
@@ -213,7 +213,8 @@ nav ul li a:hover{
 	border:1px solid #2EC4B6;
 	margin-top: 3em;
 	padding: 1.5em;
-	margin-bottom: 1.5em;
+	margin-top: 3em;
+	
 	text-align: center;
 }
 
@@ -234,3 +235,72 @@ nav ul li a:hover{
 	line-height: 1.5em;
 	margin-top: 1em;
 }
+
+/*Portfolio*/
+
+#portfolio{
+	background-color: #f8f8f8;
+
+}
+
+.portfolio__item{
+	 
+	overflow: hidden;
+	margin-bottom: 1em;
+	position: relative;
+}
+
+.portfolio__item:hover img{
+	cursor: pointer;
+	transform: scale(1.4);
+}
+
+.portfolio__item img{
+		-webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    transition: all linear .4s;
+}
+
+.portfolio__item div{
+	color:#f9f9f9;
+
+}
+
+.portfolio__item h3{
+	font-size: 3em;
+	margin-top: 5px;
+}
+
+.portfolio__item h4{
+	color:#2EC4B6;
+	font-size: 1.5em;
+	font-weight: 700;
+	font-family: 'Titillium Web', sans-serif;
+	letter-spacing: 2px;
+	margin-top: -10px;
+	
+}
+
+ .portfolio__item__contenido{
+ 	cursor: pointer;
+ 	position: absolute;
+ 	top:5%;
+ 	left: 5%;
+}
+
+.portfolio__item__contenido p{
+	margin-top: 1em;
+	opacity: 0;
+	width: 90%;
+
+	-webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -o-transition: all linear .2s;
+    transition: all linear .2s;
+}
+
+.portfolio__item__contenido:hover p{
+	opacity: 1;
+}
+
