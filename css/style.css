@@ -348,32 +348,65 @@ nav ul li a:hover{
 }
 
 
-/* Clients */
+/*Testimonial*/
 
-#clients{
-	background-color: #566270;
+
+.testimonial__left{
+	background-color: #313133;
+	color:#fff;
+	padding: 11.1em 3em!important;
+
 }
 
-#clients h2{
+.sinpadding{
+	padding: 0!important;
+}
+
+.testimonial__left h4{
+	border-bottom:1px solid #fff;
+	font-size: 1.2em;
+	padding-bottom: 0.45em;
+	width: 90%;
+}
+.testimonial__left h4 i{
+	color:#2EC4B6;	
+	font-size: 1.5em;
+	margin-right: 0.5em;
+}
+
+.testimonial__left h3{
+
+	font-size: 3em;
+	margin-top: 0.5em;
+}
+
+.testimonial__left p{
+	margin-top: 1em;
+	margin-bottom: 2em;
+	width: 90%;
+}
+
+.boton__testimonial{
+	background-color: #2EC4B6;
+	box-shadow: 0px 3px 0px #037167;
 	color:#f9f9f9;
+	margin-bottom: 2em;
+	-webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -o-transition: all linear .5s;
+    transition: all linear .5s;
+    text-align: left;
+    margin-top: 1em;
 }
 
-.your-class img{
-	height: 2%;
-	width: 100vw;
+.boton__testimonial:hover{
+	background-color: #037167;
+	box-shadow: 0px 3px 0px #037167;
+	color:#f9f9f9;
+	text-decoration: none;
+}
+
+.testimonial__right img{
+	width: 100%;
 	
-}
-
-.slick-list {
-    overflow: visible!important;
-}
-
-.item__client__info{
-	background-color: rgba(255,255,255,0.8);
-	position: absolute;
-	top: -2%;
-	left:50%;
-	padding: 3em;
-	width: 40%;
-	height: 104%;
 }
