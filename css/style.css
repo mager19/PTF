@@ -410,3 +410,165 @@ nav ul li a:hover{
 	width: 100%;
 	
 }
+
+
+/*footer*/
+
+#footer p {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+#footer form{
+	font-family: 'Titillium Web', sans-serif;
+	padding-top: 5em;
+}
+
+#footer input, #footer textarea{
+	border:1px solid #ccc;
+	padding: 0.5em 2em;
+	width: 100%;
+}
+
+#footer textarea{
+	margin-top: 1em;
+	margin-bottom: 2em;
+	padding-top:1em;
+}
+
+ .boton__footer {
+    background-color: #2EC4B6;
+    box-shadow: 0px 3px 0px #037167;
+    color: #f9f9f9;
+    padding: 0.5em 3em;
+    margin-bottom: 2em;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -o-transition: all linear .5s;
+    transition: all linear .5s;
+    text-align: left;
+    margin-top: 10em;
+
+}
+
+.boton__footer:hover{
+	background-color: #037167;
+	box-shadow: 0px 3px 0px #037167;
+	color:#f9f9f9;
+	text-decoration: none;
+}
+
+
+#detalle{
+  	background-color: #2EC4B6;
+	height: 10px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width:1366px) {
+
+	.testimonial__left {
+    	padding: 4.25em 3em!important;
+	}
+
+}
+
+@media screen and (max-width:1280px) {
+
+	.testimonial__left {
+    	padding: 2.8em 3em!important;
+	}
+
+}
+
+@media screen and (max-width:1024px) {
+
+	nav ul li a {
+	    font-size: 0.9em;
+	    padding: 0.4em;
+	}
+
+	.aboutme__items {
+        margin-top: 4.5em;
+	}
+
+	.aboutme__items h3 {
+    	font-size: 1.6em;
+    }
+
+    .testimonial__left h3 {
+    	font-size: 2em;
+    }
+
+    .testimonial__left p {
+    	font-size: 0.9em;
+    	width: 100%;
+	}
+
+	.testimonial__left {
+    	padding: 1.98em 3em!important;
+	}
+
+
+
+}
+
+@media screen and (max-width:768px) {
+	.boton__contactme {
+ 	   margin-left: 40%;
+ 	 }
+
+ 	 .testimonial__left {
+    	padding: 5em 3em!important;
+	}
+
+	header{
+		text-align: center;
+	}
+}
+
+@media screen and (max-width:480px) {
+	.boton__contactme {
+	    margin-left: 32%!important;
+	}
+
+	.header__contenido h2 {
+    	font-size: 1.5em;
+	}
+
+	.social__stick__item a{
+		text-align: center;
+	}
+
+	.social__stick__item a span{
+		display: none;
+	}
+
+	#aboutme img{
+		width: 100%;
+	}
+
+	.aboutme__items h3 {
+    	font-size: 1.3em;
+	}
+
+	.aboutme__items {
+    	margin-top: 2.5em;
+	}
+
+	.portafolio__item--small{
+		margin-bottom: 0.5em;
+	}
+
+	#footer input, #footer textarea {
+   	    margin-bottom: 1em;
+	}
+
+	#footer textarea {
+   	    margin-top: 0em;
+	}
+	   
+
+}
